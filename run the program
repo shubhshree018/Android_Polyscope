@@ -1,0 +1,11 @@
+Inside your PolyScope folder:
+
+cd polyscope_analysis
+
+Install dependency:
+
+pip install networkx
+
+Run:
+
+python main.py
