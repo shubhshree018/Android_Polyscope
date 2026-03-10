@@ -1,0 +1,15 @@
+polyscope_analysis/
+│
+├── main.py
+├── config.py
+│
+├── modules/
+│   ├── parser.py
+│   ├── graph_builder.py
+│   ├── permission_analyzer.py
+│   ├── path_finder.py
+│   └── report.py
+│
+└── output/
+    └── mac_expanded.txt
+
