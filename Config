@@ -1,0 +1,22 @@
+# config.py
+
+DANGEROUS_PERMISSIONS = {
+    "write",
+    "append",
+    "execute",
+    "setuid",
+    "setgid",
+    "sys_admin",
+    "net_admin",
+    "net_raw"
+}
+
+START_DOMAINS = [
+    "untrusted_app",
+    "isolated_app"
+]
+
+TARGET_DOMAINS = [
+    "system_server",
+    "init"
+]
